@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+}
+
+h2[role=titulo] {
+  float: left;
+  width: 62.5%;
+}
+
+h3[role=subtitulo] {
+  float: right;
+  width: 37.5%;
+}
+
+/*# sourceMappingURL=hojaestilos2.css.map */

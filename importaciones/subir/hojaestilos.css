@@ -1,0 +1,16 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1em;
+}
+
+/*En este ejemplo vamos a aprender una nueva propiedad: font*/
+body {
+  font: 1em Helvetica, sans-serif;
+  color: #bb3939;
+}
+
+/*# sourceMappingURL=hojaestilos.css.map */

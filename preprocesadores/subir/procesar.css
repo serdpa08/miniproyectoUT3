@@ -1,0 +1,16 @@
+div {
+  color: burlywood;
+  width: 80%;
+  height: auto;
+}
+div .cajaroja {
+  background-color: crimson;
+  color: #000000;
+  width: 50%;
+  height: 400px;
+}
+div .cajaroja p {
+  color: yellow;
+}
+
+/*# sourceMappingURL=procesar.css.map */

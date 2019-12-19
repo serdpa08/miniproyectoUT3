@@ -1,0 +1,11 @@
+.container{
+    display:flex;
+    background-color: brown;
+    flex-wrap: wrap-reverse;
+    > div{
+        width:25%;
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: center;
+    }
+}

@@ -1,0 +1,66 @@
+.contenedorflex{
+    display: flex;
+    width: 500px;
+    background-color: moccasin;
+    padding: 10px;
+    min-height: 300px;
+
+    > .elemento1{
+        flex-basis: 200px;
+        flex-grow: 1;
+        background-color: lightgreen;
+    }
+
+    > .elemento2{
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: lightgreen;
+    }
+
+    > .elemento3{
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: lightgreen;
+    }
+
+    > .elementohijo{
+        padding: 10px;
+        background-color: dimgrey;
+        align-self: center; /*sustituye a align items y es alineación vertical, sirve para un elemento en concreto*/
+    }
+
+    > .elementohijo1{
+        padding: 10px;
+        background-color: dimgrey;
+        align-self: flex-start; /*sustituye a align items y es alineación vertical, sirve para un elemento en concreto*/
+    }
+}
+
+
+.contenedorflex2{
+    display: flex;
+    background-color: dodgerblue;
+    padding: 20px;
+
+    > .elemento1{
+        padding: 10px;
+        background-color: dimgrey;
+        display: flex;
+
+        > .elemento11{
+            padding: 10px;
+        background-color: goldenrod;
+        }
+
+        > .elemento12{
+            padding: 10px;
+        background-color: goldenrod;
+        }
+    }
+
+    > .elemento2{
+        padding: 10px;
+        background-color: dimgrey;
+        display: flex;
+    }
+}

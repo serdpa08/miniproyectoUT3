@@ -1,0 +1,17 @@
+/* Error: Incompatible units em and px.
+ *   ,
+ * 2 |   font-size: 5px + 2em; /*Aquí hay un error. Unidades incompatibles*∕
+ *   |              ^^^^^^^^^
+ *   '
+ *   procesar/hojaestilos.scss 2:14  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Incompatible units em and px.\a   \2577 \a 2 \2502    font-size: 5px + 2em; /*Aquí hay un error. Unidades incompatibles*/\a   \2502               ^^^^^^^^^\a   \2575 \a   procesar/hojaestilos.scss 2:14  root stylesheet";
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.contenedorflex {
+  display: flex;
+  width: 500px;
+  background-color: moccasin;
+  padding: 10px;
+  min-height: 300px;
+}
+.contenedorflex > .elemento1 {
+  flex-basis: 200px;
+  flex-grow: 1;
+  background-color: lightgreen;
+}
+.contenedorflex > .elemento2 {
+  flex-basis: auto;
+  flex-grow: 2;
+  background-color: lightgreen;
+}
+.contenedorflex > .elemento3 {
+  flex-basis: auto;
+  flex-grow: 2;
+  background-color: lightgreen;
+}
+.contenedorflex > .elementohijo {
+  padding: 10px;
+  background-color: dimgrey;
+  align-self: center;
+  /*sustituye a align items y es alineación vertical, sirve para un elemento en concreto*/
+}
+.contenedorflex > .elementohijo1 {
+  padding: 10px;
+  background-color: dimgrey;
+  align-self: flex-start;
+  /*sustituye a align items y es alineación vertical, sirve para un elemento en concreto*/
+}
+
+.contenedorflex2 {
+  display: flex;
+  background-color: dodgerblue;
+  padding: 20px;
+}
+.contenedorflex2 > .elemento1 {
+  padding: 10px;
+  background-color: dimgrey;
+  display: flex;
+}
+.contenedorflex2 > .elemento1 > .elemento11 {
+  padding: 10px;
+  background-color: goldenrod;
+}
+.contenedorflex2 > .elemento1 > .elemento12 {
+  padding: 10px;
+  background-color: goldenrod;
+}
+.contenedorflex2 > .elemento2 {
+  padding: 10px;
+  background-color: dimgrey;
+  display: flex;
+}
+
+/*# sourceMappingURL=hojaestilos.css.map */

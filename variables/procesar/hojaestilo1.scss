@@ -1,0 +1,25 @@
+@font-face{
+    font-family: mifuente1;
+    src: url("fonts/IndieFlower-Regular.ttf");
+}
+
+
+$fuente1 :  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+$fuente2 : mifuente1;
+div{
+    
+    width: 80%;
+    min-height: 400px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid blueviolet;
+    .cajaroja{
+        width: 60%;
+        min-height: 200px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: $fuente2;
+    }
+}

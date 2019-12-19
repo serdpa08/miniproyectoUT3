@@ -1,0 +1,50 @@
+@mixin borderradius($radio, $color) {
+    -webkit-border-radius: $radio;
+    -moz-border-radius: $radio;
+    -ms-border-radius: $radio;
+    border-radius: $radio;
+    width: 300px / 900px *100%;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid $color;
+}
+
+%texto{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem; 
+        color: royalblue;
+        text-decoration: underline red;
+}
+
+
+.capaborderradius1{
+@include borderradius(5px, blue);
+
+    &:hover{
+       
+        $color: random(99);
+        $color1: random(99);
+        $color2: random(99);
+
+        background-color: rgb($color, $color1, $color2);
+    }
+    &__texto1{
+        @extend %texto;
+    }
+}
+
+.capaborderradius2{
+    @include borderradius(10px, red);
+
+    &__texto1{
+        @extend %texto;  
+    }
+}
+
+.capaborderradius3{
+    @include borderradius(15px, green);
+
+    &__texto1{
+        @extend %texto;
+    }
+}

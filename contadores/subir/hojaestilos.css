@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {
+  counter-reset: titulopasayuser;
+}
+
+h2 {
+  counter-reset: subtitulopasayuser;
+}
+
+h2:before {
+  counter-increment: titulopasayuser;
+  content: "Suscripción " counter(titulopasayuser) " ";
+}
+
+h3 {
+  counter-reset: contenidopasayuser;
+}
+
+h3:before {
+  counter-increment: subtitulopasayuser;
+  content: counter(titulopasayuser) "." counter(subtitulopasayuser);
+}
+
+h4:before {
+  counter-increment: subtitulopasayuser;
+  counter-increment: contenidopasayuser;
+  content: counter(titulopasayuser) "." counter(subtitulopasayuser) "." counter(contenidopasayuser);
+}
+
+/*# sourceMappingURL=hojaestilos.css.map */

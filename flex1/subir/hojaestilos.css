@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  background-color: brown;
+}
+.container > div {
+  width: 25%;
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/*# sourceMappingURL=hojaestilos.css.map */

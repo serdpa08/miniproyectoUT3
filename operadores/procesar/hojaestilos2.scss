@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+}
+h2[role="titulo"] {
+  float: left;
+  width: 600px / 960px * 100%;
+}
+h3[role="subtitulo"] {
+  float: right;
+  width: 360px / 960px * 100%;
+}

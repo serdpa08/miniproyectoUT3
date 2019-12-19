@@ -1,0 +1,8 @@
+h2 {
+  font-size: 5px + 2em; /*Aquí hay un error. Unidades incompatibles*/
+  font-size: 5px + 2; /*El resultado sería 7px*/
+}
+h3 {
+  font-size: 5px * 2px; /*Esto arrojaría un error. No se pueden multiplicar dos números que tengan la misma unidad*/
+  font-size: 5px * 2;
+}

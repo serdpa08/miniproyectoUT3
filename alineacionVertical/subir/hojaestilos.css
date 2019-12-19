@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  background-color: brown;
+  height: 240px;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container > div {
+  width: 21%;
+  background-color: aqua;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.elemento1 {
+  font-size: 2rem;
+}
+
+.elemento2 {
+  font-size: 0.5rem;
+}
+
+.elemento3 {
+  font-size: 4rem;
+}
+
+.elemento4 {
+  font-size: 8rem;
+}
+
+.elemento5 {
+  font-size: 2rem;
+}
+
+.elemento6 {
+  font-size: 2rem;
+}
+
+.elemento7 {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=hojaestilos.css.map */

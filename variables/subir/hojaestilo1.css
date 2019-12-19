@@ -1,0 +1,22 @@
+@font-face {
+  font-family: mifuente1;
+  src: url("fonts/IndieFlower-Regular.ttf");
+}
+div {
+  width: 80%;
+  min-height: 400px;
+  background-color: azure;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid blueviolet;
+}
+div .cajaroja {
+  width: 60%;
+  min-height: 200px;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: mifuente1;
+}
+
+/*# sourceMappingURL=hojaestilo1.css.map */

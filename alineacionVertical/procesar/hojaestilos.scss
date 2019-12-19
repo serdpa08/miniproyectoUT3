@@ -1,0 +1,46 @@
+@mixin tamanioFuente($tamanio) {
+    font-size: $tamanio;
+}
+
+.container{
+    display:flex;
+    background-color: brown;
+    height:240px;
+    flex-flow:row wrap;
+    justify-content:flex-start;
+    align-items:center;
+    > div{
+        width:21%;
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+.elemento1{
+    @include tamanioFuente(2rem)
+}
+
+.elemento2{
+    @include tamanioFuente(0.5rem)
+}
+
+.elemento3{
+    @include tamanioFuente(4rem)
+}
+
+.elemento4{
+    @include tamanioFuente(8rem)
+}
+
+.elemento5{
+    @include tamanioFuente(2rem)
+}
+
+.elemento6{
+    @include tamanioFuente(2rem)
+}
+
+.elemento7{
+    @include tamanioFuente(1rem)
+}

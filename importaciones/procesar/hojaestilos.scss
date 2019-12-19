@@ -1,0 +1,8 @@
+@import "importaciones.scss";
+$fuente1: Helvetica, sans-serif;
+$colorprincipal: rgb(187, 57, 57); /*En este ejemplo vamos a aprender una nueva propiedad: font*/
+body {
+  font: 1em $fuente1;
+  color: $colorprincipal;
+}
+ 

@@ -1,0 +1,13 @@
+.container{
+    height:240px;
+    display:flex;
+    flex-flow:row wrap;
+    align-content:space-around;
+    background-color: aqua;
+    div{
+        width:21%;
+        background-color: brown;
+        border: 1px solid black;
+        text-align: center;
+    }
+}
